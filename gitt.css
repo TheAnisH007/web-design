@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+}
+
+.control{
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+@media screen and (min-width:576px) {
+    .full{
+        flex-direction: row;
+        max-width: 720px;
+        flex-wrap: wrap;
+    }
+}
+
+.big-image> img{
+    height: 160px;
+    object-fit: cover;
+    width: 100%;
+}
+.outer{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+@media screen and (min-width:576px) {
+    .outer{
+        width:calc((100% -10px -4px)/2);
+    }
+}
+h1{
+    text-align: center;
+}
+.body{
+    padding: 4px;
+}
+
+.smalltxt{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom:5px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.place{
+    margin-bottom: 5px;
+}
+   
